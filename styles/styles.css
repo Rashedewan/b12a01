@@ -12,7 +12,9 @@
   font-style: normal;
 }
 
- 
+ body{
+    background-color: #f5f8ff;
+ }
 
 /* reusable */
 .btn-primary{
@@ -153,4 +155,61 @@ main{
 }
 .para{
     margin: 0px;
+}
+
+/* focus section */
+
+.focus-board{
+    text-align: center;
+}
+
+.btn-mar{
+    margin-bottom: 20px;
+}
+.wc-img{
+    border-radius: 48px;
+}
+.focus-board{
+    background-color: #FFFFFF;
+}
+
+.focus-text{
+    padding-top: 71px;
+}
+.focus-banner{
+    padding-bottom: 71px;
+}
+
+/*contact section */
+
+.contact-div{
+    display: flex;
+    gap:15px;
+}
+
+.head-touch{
+    font-size: 97px;
+    font-weight: 800;
+}
+
+.form-div input[type="text"], input[type="email"], textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    color:#FFFFFF;
+    width: 94%;
+    padding: 10px 20px;
+    margin: 20px auto;
+    border:none;
+}
+
+.btn-new{
+     background-color:#4E47FF;
+    border-radius: 10px;
+    color:#FFFFFF;
+    font-size: 16px;
+    font-weight: 800;
+    width: 100%;
+    padding: 12px 36px ;
+    border: none;
 }
