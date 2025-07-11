@@ -41,7 +41,7 @@
 .bg-main{
     background-image: url(../media/Hero-bg.png);
     background-size: auto;
-    height: 698px;
+    height: 600px;
     }
 /* Nav section */
 .nav-section{
@@ -212,4 +212,43 @@ main{
     width: 100%;
     padding: 12px 36px ;
     border: none;
+}
+
+.footer-section{
+    margin: auto;
+    width: 60%;
+}
+.text-sec{
+    text-align: center;
+}
+.text-sec p{
+    color:#95969b;
+}
+.list-item ul{
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+}
+
+ ul li{
+     list-style: none;
+}
+
+.list-item ul li a{
+    text-decoration: none;
+    color:#95969b
+}
+
+.footer-section{
+    background-color: #FFFFFF;
+    padding: 20px ;
+    width: auto;
+    height: 428px;
+}
+.h-three-new{
+    font-size: 100px;
+    color: #4E47FF;
+}
+.head-last{
+    margin-top: 40px;
 }
